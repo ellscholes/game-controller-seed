@@ -80,8 +80,8 @@ int velocity, Vx, Vy;
 bool isFlying, isCrashed;
 
 /*TODO YOU will have to hardwire the IP address in here */
-SocketAddress lander("192.168.80.6",65200);
-SocketAddress dash("192.168.80.6",65250);
+SocketAddress lander("192.168.80.16",65200);
+SocketAddress dash("192.168.80.16",65250);
 
 EthernetInterface eth;
 UDPSocket udp;
